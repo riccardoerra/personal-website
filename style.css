@@ -49,6 +49,7 @@ article {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 32em;
+	letter-spacing: .05em
 }
 
 footer {
