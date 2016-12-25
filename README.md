@@ -1,2 +1,0 @@
-# riccardoerra
-riccardoerra.com
