@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300');
 
 body {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Saira Extra Condensed', sans-serif;
 	width: 80%;
 	margin: 5% 10% 0 auto;
 	font-weight: 300;
-	background: rgba(230, 232, 230, 1);
-	color: rgba(8, 7, 8, 1);
+	background: rgba(9, 4, 28, 1);
+	color: rgba(210, 223, 228, 1);
 	text-align: center;
 }
 
 a {
 	font-weight: 400;
 	text-decoration: none;
-	color: rgba(223, 41, 53, 1);
+	color: rgba(15, 138, 171, 1);
 }
 
 a:hover {
@@ -33,7 +33,7 @@ h1,
 h2 {
   margin: 0;
   padding: 0;
-  color: rgba(55, 114, 255, 1);
+  color: rgba(255, 199, 0, 1);
 }
 
 h1 {
