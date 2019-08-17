@@ -1,0 +1,9 @@
+{
+  "short_name": "Riccardo Erra",
+  "name": "Riccardo Erra",
+  "start_url": "/index.html",
+  "background_color": "#09041c",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffc700"
+}
