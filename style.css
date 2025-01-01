@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300');
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300");
 
 body {
-	font-family: 'Saira Extra Condensed', sans-serif;
-	width: 80%;
-	margin: 5% 10% 0 auto;
-	font-weight: 300;
-	background: rgba(9, 4, 28, 1);
-	color: rgba(210, 223, 228, 1);
-	text-align: center;
+  font-family: "Saira Extra Condensed", sans-serif;
+  width: 80%;
+  margin: 5% 10% 0 auto;
+  font-weight: 300;
+  background: rgba(9, 4, 28, 1);
+  color: rgba(210, 223, 228, 1);
+  text-align: center;
 }
 
 a {
-	font-weight: 400;
-	text-decoration: none;
-	color: rgba(15, 138, 171, 1);
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(15, 138, 171, 1);
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 header,
 footer {
-	width: 100%;
+  width: 100%;
 }
 
 header {
-	margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 h1,
@@ -37,55 +37,80 @@ h2 {
 }
 
 h1 {
-	font-size: 4em;
+  font-size: 4em;
 }
 
 h2 {
-	font-size: 3em;
+  font-size: 3em;
 }
 
 article {
-	font-size: 1.5em;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 32em;
-	letter-spacing: .05em
+  font-size: 1.5em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 32em;
+  letter-spacing: 0.05em;
 }
 
 footer {
-	margin: 10% auto 1em;
-	font-size: 0.75em;
+  margin: 10% auto 1em;
+  font-size: 0.75em;
 }
 
 /* This should be reverted, mobile first needs to be implemented */
 @media screen and (max-width: 50em) {
-	body {
-		width: 90%;
-		margin: 5% 5% 0 auto;
-	}
+  body {
+    width: 90%;
+    margin: 5% 5% 0 auto;
+  }
 
-	h2 {
-		font-size: 2.5em;
-	}
+  h2 {
+    font-size: 2.5em;
+  }
 
-	article {
-		text-align: left;
-	}
+  article {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 30em) {
-	h2 {
-		font-size: 2.4em;
-	}
+  h2 {
+    font-size: 2.4em;
+  }
 }
 
 @media screen and (max-width: 20em) {
-	body {
-		width: 96%;
-		margin: 2% 2% 0 auto;
-	}
+  body {
+    width: 96%;
+    margin: 2% 2% 0 auto;
+  }
 
-	h2 {
-		font-size: 1.7em;
-	}
+  h2 {
+    font-size: 1.7em;
+  }
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(9, 4, 28, 1);
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+main {
+  padding-bottom: 4em; /* Add space for the fixed nav */
 }
